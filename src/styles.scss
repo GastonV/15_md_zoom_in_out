@@ -11,7 +11,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 500px 500px;
-  
+
 }
 
 .vertical {
@@ -29,7 +29,8 @@ body {
   align-self: end;
 
 }
-.img__container{
+
+.img__container {
   position: relative;
 
 }
