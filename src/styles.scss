@@ -1,3 +1,28 @@
 body {
   background-color: antiquewhite;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px 500px;
+}
+
+.vertical {
+  min-width: 320px;
+  max-width: 320px;
+  transform: rotate(90deg);
+}
+
+.horizontal {
+  max-width: 320px;
+  min-width: 320px;
+  grid-column-end: span 2;
+  
+}
+
