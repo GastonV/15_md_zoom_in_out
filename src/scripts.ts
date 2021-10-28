@@ -34,3 +34,4 @@ window.addEventListener("wheel", (e) => {
     vsliderBar.value = (selecedtImage.height / 10).toString();
   }
 });
+
